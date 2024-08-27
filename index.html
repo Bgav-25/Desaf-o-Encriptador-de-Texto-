@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Desafío ONE</title>
+</head>
+<body>
+    <header class="encabezado">
+        <div class="encabezado-container">
+            <img class="logo" src="assets/Logo.png" alt="logo personal para el desafio">
+            <img class="encabezado-aluraLogo" src="assets/aluraLogo.png">
+            <img class="encabezado-oneLogo" src="assets/oneLogo.png">
+        </div>
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="25" rows="10" placeholder="Ingrese su texto aquí..."></textarea>
+
+            <div>
+                <h6 class="información"> Solo letras minúsculas y sin acento </h6>
+            </div>
+
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="20" rows="10"> </textarea>
+        </section>
+       <!-- <img src="assets/Background.jpg" alt="fondo para el desafio"> -->
+    </main>
+   
+    <footer class="footer">
+        Desarrollado por Benjamín Allendes Valdés
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
